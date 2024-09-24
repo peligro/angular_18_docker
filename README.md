@@ -4,19 +4,22 @@
 <p>
 Ejecutar archivo Dockerfile:
 <br/>
-`docker-compose up`
+<code>docker-compose up</code>
 <br/>
 Se creará el proyecto con angular 18 y se desplegará en el puerto 4200
 </p>
 <hr />
 <p>
-Utilizando ng desde la terminal docker:<br/>
-`docker exec -it angular-app ng generate component componentes/header`
+Utilizando ng desde la terminal docker:
+<br/>
+<code>docker exec -it angular-app ng generate component componentes/header</code>
+<br />
+<code>docker exec -it angular-app ng g c componentes/footer -s</code>
 </p>
 <hr />
 
 <p>
 Detener contenedor:<br/>
-`docker-compose down`
+<code>docker-compose down</code>
 </p>
 <hr />
